@@ -1,0 +1,69 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: limegreen;
+}
+
+.square {
+  display: flex;
+  margin: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 160px;
+  margin: 5px 5px;
+  font-size: 62px;
+  border: 1px solid black;
+  border-radius: 12px;
+  background-color: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.card.♥, .card.♦ {
+  color: red
+}
+
+.card.♣, .card.♠ {
+  color: black
+}
+
+
+/*}*/
+.c1 {
+  /*object-position: 0px;*/
+}
+
+.c2 {
+  /*object-position: calc(-150px * 2);*/
+}
+
+.c3 {
+  /*object-position: -600px;*/
+}
+
+.c4 {
+  /*object-position: -1200px;*/
+}
+
+.c5 {
+  /*object-position: -1800px;*/
+}
+
